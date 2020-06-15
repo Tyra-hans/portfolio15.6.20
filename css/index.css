@@ -1,0 +1,12 @@
+body {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  .home-footer {
+    margin-top: 60px;
+  }
+  footer {
+    margin-bottom: 0;
+  }
+}

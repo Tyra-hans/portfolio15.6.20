@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  background-color: #90827e;
+ 
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+  color: #fff;
+  font-size: 4.5em;
+  margin-top: 70px;
+  width: 600px;
+}
+.role {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.line{
+  display:inline-block;
+  width:20%; /*or whatever width you want the effect of <hr> */
+  border-top: 2px solid #fff;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.role2 {
+  -webkit-transform: rotate(-90deg);
+  -ff-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  width: 100%;  /* transform: rotate() does not rotate the bounding box. */
+  padding-left: 480px;
+  margin-left: 370px;
+  /* margin-top: 2px; */
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  font-weight: 350;
+  letter-spacing: 3px;
+
+  
+}
+.logo {
+  float: left;
+  margin-left:130px;
+  color: #fff;
+  width: 60px;
+  font-size: 0.9em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  height: 20px;
+  text-decoration: none;
+}
+.logo , .logo a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials {
+  color: #fff;
+  margin-top: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+.socials li {
+  margin-left: 20px;
+  list-style: none;
+}
+li a{
+  color: #fff;
+}
+li a ,li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dfdfdf;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff0;
+}
+
+.transition-fade {
+  transition: 500ms;
+  opacity: 1;
+}
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%);
+}
+@media screen and (max-width: 480px) {
+ 
+
+  .name {
+    font-family: "Abril Fatface", cursive;
+    color: #fff;
+    font-size: 3.5em;
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 300px;
+    text-align: left;
+  }
+
+  .role {
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    font-size: 2.6em;
+    margin-left: 5px;
+    font-weight: 300;
+  }
+ 
+
+  .socials {
+    color: #fff;
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+  }
+  .socials li {
+    margin-left: 10px;
+    list-style: none;
+  }
+  .role2 {
+  display: none;
+    
+  }
+  .logo{
+    margin-left: 20px;
+  }
+
+}
