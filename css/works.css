@@ -10,7 +10,7 @@ body {
   font-family: "Abril Fatface", cursive;
   padding-top: 170px;
   text-align: center;
-  font-size: 80px;
+  font-size: 90px;
 }
 .socials {
   color: #fff;
@@ -56,39 +56,39 @@ a li {
   color: #fff;
   font-family: "Abril Fatface", cursive;
   margin-top: 350px;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 400;
   text-align: left;
   margin-left: 42px;
 }
 .work-decription {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Lato", sans-serif;
   padding-top: 50px;
-  font-weight: 400;
+  font-weight: 350;
   text-align: left;
   margin-left: 42px;
-  width: 600px;
+  width: 700px;
 }
 .work-title1 {
   color: #fff;
   font-family: "Abril Fatface", cursive;
   padding-top: 450px;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 400;
   text-align: left;
   margin-left: 42px;
 }
 .work-decription1 {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Lato", sans-serif;
   padding-top: 50px;
-  font-weight: 400;
+  font-weight: 350;
   text-align: left;
   margin-left: 42px;
-  width: 600px;
+  width: 700px;
 }
 .buttons {
   margin-top: 100px;

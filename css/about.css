@@ -85,6 +85,7 @@ li a{
   font-size: 40px;
   margin-top: 350px;
   font-family: "Abril Fatface", cursive;
+  clear: left;
 }
 .paragraph {
   color: white;
@@ -152,10 +153,10 @@ a.button1:hover {
     margin-top: 300px;
   }
   .headline {
-    font-size: 27px;
+    font-size: 47px;
   }
   .sub-headline {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 400;
   }
   .footer-headline {
@@ -165,6 +166,7 @@ a.button1:hover {
   }
   .paragraph {
     margin-top: 10px;
+    font-size: 23px;
   }
   .logo {
     width: 0;
