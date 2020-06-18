@@ -34,7 +34,7 @@ body {
   -ff-transform: rotate(-90deg);
   transform: rotate(-90deg);
   width: 100%;  /* transform: rotate() does not rotate the bounding box. */
-  padding-left: 480px;
+  padding-left: 550px;
   margin-left: 370px;
   /* margin-top: 2px; */
   color: #fff;
