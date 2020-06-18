@@ -35,7 +35,8 @@
 
 
     <div class="text">
-      <h1 class="name">I CANT TELL YOU HOW MUCH I LOVE MAKING WEBSITES</h1>
+      <h1 class="name">I BUILD WEBSITES THAT BUILD BUSINESSES</h1>
+      <h1 id="location"></h1>
       <h4 class="role"> Hi, I'm Tyra <span class="line"></span></h4>
       <p class="role2">Software Developer x Web Designer </p>
 
@@ -128,7 +129,22 @@
   <script src="/js/menu.js"></script>
   <script src="/js/vanillatilt-min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
-  <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+  <script>
+    $.ajax({
+    url: 'http://api.ipstack.com/check?access_key=3958934de42c5bb8da80e6c0c139b3b7',  
+    dataType: 'jsonp',
+    success: function(json) {
+
+        
+        let location = json.city;
+        let x = document.getElementById('location');
+        x.innerHTML = 'IN ' + location
+        
+    }
+});
+
+
+  </script>
 
   <script src="/js/scripts.js"></script>
 

@@ -3,6 +3,9 @@ new kursor({
   color: '#fff',
 });
 
-const swup = new  Swup()
+
+
+
+
 
 
