@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,900&display=swap");
 :root {
   --font-family: 'Abril Fatface', cursive;
-  --black-bg: #90827e;
+  --black-bg: #e27d60;
   --white-bg: #ffffff;
-  --red-bg: #445B3D;
+  --red-bg: #e8a87c;
 }
 
 html,

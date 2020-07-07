@@ -4,7 +4,7 @@
   /* box-sizing: border-box; */
 }
 body {
-  background-color: #90827e;
+  background-color: #85dcb8;
  
 }
 
@@ -15,25 +15,25 @@ body {
   margin-top: 70px;
   width: 640px;
 }
-#location{
+/* #location{
   font-family: "Lato", sans-serif;
   color: #fff;
   font-size: 2.5em;
   font-weight: 350;
   text-transform: lowercase;
   color:#5C5351 ;
-}
+} */
 .role {
   font-family: "Lato", sans-serif;
-  color: #fff;
+  color: #41b3a3;
   font-size: 2.2em;
-  font-weight: 300;
+  font-weight: 500;
   margin-top: 20px;
 }
 .line{
   display:inline-block;
   width:20%; /*or whatever width you want the effect of <hr> */
-  border-top: 2px solid #fff;
+  border-top: 2px solid #41b3a3;
   margin-left: 10px;
   padding-bottom: 10px;
 }
@@ -45,10 +45,10 @@ body {
   padding-left: 550px;
   margin-left: 370px;
   /* margin-top: 2px; */
-  color: #fff;
+  color: #41b3a3;
   font-family: "Lato", sans-serif;
   font-size: 1.2em;
-  font-weight: 350;
+  font-weight: 750;
   letter-spacing: 3px;
 
   
@@ -60,16 +60,16 @@ body {
   width: 60px;
   font-size: 0.9em;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   height: 20px;
   text-decoration: none;
 }
 .logo , .logo a{
   text-decoration: none;
-  color: #fff;
+  color: #41b3a3;
 }
 .socials {
-  color: #fff;
+  color: #41b3a3;
   margin-top: 20px;
   font-family: "Lato", sans-serif;
   font-size: 1em;
@@ -80,11 +80,11 @@ body {
   list-style: none;
 }
 li a{
-  color: #fff;
+  color: #41b3a3;
 }
 li a ,li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #41b3a3;
 }
 
 /* width */
